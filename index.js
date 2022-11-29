@@ -20,7 +20,6 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", message => {
-    //console.log("DEBUG");
     if (/hi/i.test(message.content)) {
         message.reply("Hello World!!!")}
 });
