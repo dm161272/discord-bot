@@ -1,0 +1,11 @@
+{
+	"clientId": "",
+	"clientSecret": "",
+	"port": 53134,
+
+	"discord_token": "YOUR_TOKEN",
+	"discord_clientId": "1046739102126571520",
+	"discord_guildId": "1046429641369460739"
+}
+
+
