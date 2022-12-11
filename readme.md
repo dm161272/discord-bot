@@ -28,13 +28,13 @@ and replace all data with yours server's token, guild and client id.
 
 4. run 
 ```
-npm deployCommands.js 
+node deployCommands.js 
 ```
 to deploy bot commands
 
 5. run 
 ```
-npm index.js
+node index.js
 ```
 to start your own bot
 
