@@ -1,6 +1,5 @@
 
-// Import builtin NodeJS modules to instantiate the service
-const https = require('https');
+// Import builtin NodeJS modules 
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -71,35 +70,3 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(discord_token);
-
-
-
-
-/** const express = require('express');
-//const { port } = require('./config.json');
-
-const app = express();
-
-https.createServer(
-		// Provide the private and public key to the server by reading each
-		// file's content with the readFileSync() method.
-    {
-      key: fs.readFileSync("key.pem"),
-      cert: fs.readFileSync("cert.pem"),
-    },
-    app
-    ).listen(4000, () => {
-    console.log("serever is runing at port 4000");
-    });
-
-app.get('/', (request, response) => {
-	return response.sendFile('index.html', { root: '.' });
-});
-
-app.get('/api/auth/discord/redirect', (request, response) => {
-	return response.sendFile('index.html', { root: '.' });
-});
-
-
-//app.listen(port, () => console.log(`App listening at https://localhost:${port}`));
-*/
