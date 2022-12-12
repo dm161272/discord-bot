@@ -8,6 +8,8 @@ This package contains implementation of Discord bot
 using Google chart API to generate QR codes.
 based on Node.js with Discord.js package, and Jest for testing.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/dm161272/discord-bot/badge)]
+(https://www.codefactor.io/repository/github/dm161272/discord-bot)
 
 
 ## Installation
